@@ -10,10 +10,15 @@ Refer to the following markdown file for the respective sections of the class:
 ## Lesson Objectives
 
 Learners will understand:
-- Insert the knowledge to be acquired
+- The why and how of branching strategies
+- GitFlow, GitHub Flow, and Trunk based strategies
+- How these strategies affect the way we configured CICD Pipeline
 
 Learners will be able to:
-- Insert the skillset to be acquired
+- Check out a remote branch locally using `git fetch` and `git checkout`
+- Switch branch locally using `git branch`
+- Merge branch locally using `git merge`
+- Revert branch using `git reset`
 
 
 ## Lesson Plan
