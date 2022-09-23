@@ -2,7 +2,11 @@
 
 ### Brief
 
-Enter instruction for assignment here.
+Succinctly explain your answer to the earlier question during lesson section 2 `how does branching strategies affect DevOps?` between 100 to 200 words.
+
+```
+Your answer here
+```
 
 ### Submission 
 
