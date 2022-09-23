@@ -15,10 +15,9 @@ Learners will understand:
 - How these strategies affect the way we configured CICD Pipeline
 
 Learners will be able to:
-- Check out a remote branch locally using `git fetch` and `git checkout`
-- Switch branch locally using `git branch`
-- Merge branch locally using `git merge`
-- Revert branch using `git reset`
+- Clone repository using `git clone`
+- Check out a branch using `git checkout <branch name>`
+- Push code to remote repository using `git add`, `git commit`, and `git push`
 
 
 ## Lesson Plan
