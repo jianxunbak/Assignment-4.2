@@ -26,12 +26,12 @@ Learners will be able to:
 |Duration|What|How or Why|
 |--------|-----|-------|
 |- 5mins |Start zoom session|So that students can join early and start class on time|
-|10 mins|Self studies check-in|Prepare 3 questions for students to answer as a form of warm up and engaging students with the lesson topic.|
-|30 mins|Conceptual Knowledge| Instructors brief students on the subject matter conceptually before diving into hands on. This section can be shorter but not longer. Use video clips for explanation if necessary.|
-|20 mins|Code Along| Practical hands on|
+|10 mins|Self studies check-in||
+|20 mins|Part 1| GitFlow vs GitHub Flow vs Trunk Based Development|
+|30 mins|Part 2| Case Study|
 ||**1 HR MARK**|
 |5 mins|Break|Break|
-|40 mins|Code Along| Practical hands on|
+|40 mins|Part 3| GitHub Flow Exercise|
 |5 mins|Buffer|In case of overrun|
 |5 mins|Break||
 |5 mins|Assignment Briefing|Help students to understand the expectation and direction of the assignment to prevent mis-interpretations.|
