@@ -28,6 +28,8 @@ A: True
 
 B: False
 
+---
+
 ## Part 1 - GitFlow vs GitHub Flow vs Trunk Based Development
 
 ### GitFlow
@@ -70,14 +72,73 @@ Non-trunk Based:
 
 ## Part 2 - Case Study
 
-<Insert scenario 1 - learners to propose a branching strategy>
+Learners are given with a few scenarios. In a group of 3, the team is expected to suggest one branching strategy that is most applicable to the scenario and justify it by explaining the "why". Include any other assumptions that influence your team's decision.
 
-<Insert scenario 2 - learners to propose a branching strategy>
+After discussing the scenario, end with the final question posted at the end of this section.
 
-Question: How these branching strategy affect DevOps?
+---
+### Scenario One - A Utility Mobile App
 
+The utility app is a paid app. The team has received multiple feedbacks from the public about feature request and bug fixes. The team has produced a priority list to work on them.
+
+```
+Your answer here
+```
+
+---
+### Scenario Two - A Market Penetrating Product
+
+A tech product company is planning to penetrate the market with their tech product developed in-house. They have spent money on marketing and advertisement, exciting the public users in anticipating the next release.
+
+```
+Your answer here
+```
+
+---
+
+### Scenario Three - A System Integration Project
+
+At a system integrator company, the team received an A-Z requirements from a customer that has recently been signed off. There is a fixed set of requirements, timeline, and given manpower to complete the project.
+
+```
+Your answer here
+```
+
+---
+Final Question: How these branching strategies affect DevOps?
+```
+Your answer here
+```
 ---
 
 ## Part 3 - Simulate a GitHub Flow
 
-<Prepare a repo to work on this>
+In this section, we will simulate a simplified GitHub flow using [this](https://github.com/su-ntu-ctp/6m-software-4.1-lesson-exercise) sample repository.
+
+Step 1: Fork the repository
+
+Step 2: Create a new branch `Feature-<your initial>-test` (the goal is ensuring all branches are unique).
+
+Step 3: Clone the forked repository to your local machine
+
+```sh
+git clone <url>
+```
+
+Step 4: Check out your branch locally
+```sh
+git checkout <branch name>
+```
+
+Step 5: Edit the `readme.md` file
+
+Step 6: Add, commit and push changes to the forked repository
+```
+git add .
+git commit -m "type a meaningful message here"
+git push origin <branch name>
+```
+
+Step 7: Go to `https://github.com/your_username/6m-software-4.1-lesson-exercise` to create a Pull Request from your branch to the `main` branch of `https://github.com/su-ntu-ctp/6m-software-4.1-lesson-exercise`.
+
+Step 8: Instructor to demonstrate merging the pull request into the `main` branch.
