@@ -18,6 +18,8 @@ Learners will be able to:
 - Clone repository using `git clone`
 - Check out a branch using `git checkout <branch name>`
 - Push code to remote repository using `git add`, `git commit`, and `git push`
+- Create a Pull Request on GitHub
+- Merge a Pull Request into a branch on GitHub
 
 
 ## Lesson Plan
