@@ -1,4 +1,4 @@
-# Insert Lesson Title
+# Branching Strategies
 
 ## Dependencies
 
