@@ -79,7 +79,7 @@ After discussing the scenario, end with the final question posted at the end of 
 ---
 ### Scenario One - A Utility Mobile App
 
-The utility app is a paid app. The team has received multiple feedbacks from the public about feature request and bug fixes. The team has produced a priority list to work on them.
+The utility app is a paid app. The team has received multiple feedbacks from the public about feature request and bug fixes. The team has produced a priority list to work on them. The priority of the feature releases have been frequently encountered changes. Such as, a feature might be planned to release in version 1.2.1, may be disrupted and change to a later release at times.
 
 ```
 Your answer here
@@ -88,7 +88,7 @@ Your answer here
 ---
 ### Scenario Two - A Market Penetrating Product
 
-A tech product company is planning to penetrate the market with their tech product developed in-house. They have spent money on marketing and advertisement, exciting the public users in anticipating the next release.
+A tech product company is planning to penetrate the market with their tech product developed in-house. They have spent money on marketing and advertisement, exciting the public users in anticipating the next release. There are also sales and account personnel meeting with potential customers to give demo. Not all latest features are included in the demo. 
 
 ```
 Your answer here
