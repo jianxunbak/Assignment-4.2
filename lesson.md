@@ -135,7 +135,7 @@ Your answer here
 ```
 ---
 
-## Part 3 - Simulate a GitHub Flow
+## Part 4 - Simulate a GitHub Flow
 
 In this section, we will simulate a simplified GitHub flow using [this](https://github.com/su-ntu-ctp/6m-software-4.1-lesson-exercise) sample repository.
 
