@@ -37,6 +37,8 @@ A branching strategy is the strategy that software development teams adopt when 
 
 Branches are used as a means for teams to develop features giving them a separate workspace for their code. These branches are usually merged back to the main branch upon completion of work.
 
+<img src="./assets/git-branch.png" width='50%' />
+
 In this way, features (and any bug and bug fixes) are kept apart from each other allowing you to fix mistakes more easily.
 This means that branches protect the mainline of code and any changes made to any given branch don’t affect other developers.
 
