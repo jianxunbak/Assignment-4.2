@@ -57,6 +57,22 @@ There are different branching strategies, and the most commonly used are the fol
 ## Part 2 - GitFlow vs GitHub Flow vs Trunk Based Development
 
 ### GitFlow
+
+Gitflow is an alternative Git branching model that involves the use of feature branches and multiple primary branches. 
+
+Gitflow has numerous, longer-lived branches and larger commits. Under this model, developers create a feature branch and delay merging it to the main trunk branch until the feature is complete.
+
+Gitflow can be used for projects that have a scheduled release cycle and for the DevOps best practice of continuous delivery. 
+
+Branches:
+1. Main branch - Stores the official release history.
+2. Develop branch - Serves as an integration branch for features.
+3. Feature branch - Each new feature should reside in its own branch. Feature branches use `develop` as their parent branch instead of `main`. When a feature is complete, it gets merged back into `develop`. Features should never interact directly with `main`.
+4. Feature branch - Created once the `develop` branch has enough features for a release or a release date is approaching. No new features can be added after this point—only bug fixes, documentation generation, and other release-oriented tasks should go in this branch.
+
+Once it's ready to ship, the `release` branch gets merged into `main` and tagged with a version number. In addition, it should be merged back into `develop`, which may have progressed since the release was initiated.
+
+How to do GitFlow
 1. Start development by branching out a `feature` branch from the `develop` branch
 1. Complete and test new feature in the `feature` branch
 1. Merge `develop` branch into the `feature` branch to solve potential conflicts
@@ -70,18 +86,29 @@ There are different branching strategies, and the most commonly used are the fol
 
 
 ### GitHub Flow
-> Do everything without a `develop` branch.
+
+Github Flow is a simpler alternative to GitFlow ideal for smaller teams as they don’t need to manage multiple versions and it is ideal when there is a need to maintain a single production version.
+
+Unlike GitFlow, it doesn't have any `develop` and `release` branches. The team start off with the `main` branch then developers create `feature` branches that stem directly from `main`, to isolate their work which are then merged back into `main`. The feature branch is then deleted.
+
+Branches:
+1. Main branch - Contains code that is always deployable.
+2. Feature branch - Each new feature should reside in its own branch. Feature branches branch out from `main`. When a feature is complete, it gets merged back into `main`.
+
+> Do everything without a `develop` and `release` branch.
 1. Start development by branching out a `feature` branch from the `main` branch
 1. Complete and test new feature in the `feature` branch
-1. Merge `master` branch into the `feature` branch to solve potential conflicts
 1. Create a pull request from the `feature` branch to the `main` branch
-1. Create a `release` branch from the `master` branch
-1. Perform fixes on `release` branch
-1. Once stable, merge `release` branch back into the `main` branch
+1. Merge `feature` branch into the `main` branch to solve potential conflicts
 
 <img src="https://i0.wp.com/build5nines.com/wp-content/uploads/2018/01/GitHub-Flow.png" width="50%" />
 
 ### Trunk Based Development
+
+Trunk-based development is a branching strategy wherein developers merge small, frequent updates to a core "trunk" or main branch. It helps CI/CD by streamlining merging and integration phases.
+
+Developers can create short-lived branches with a few small commits compared to other long-lived feature branching strategies.
+
 > All developments must be small batch iterations and is directly pushed into the `main` (trunk) branch. 
 
 Trunk Based:
