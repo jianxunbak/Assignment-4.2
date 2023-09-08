@@ -70,7 +70,7 @@ Branches:
 1. Main branch - Stores the official release history.
 2. Develop branch - Serves as an integration branch for features.
 3. Feature branch - Each new feature should reside in its own branch. Feature branches use `develop` as their parent branch instead of `main`. When a feature is complete, it gets merged back into `develop`. Features should never interact directly with `main`.
-4. Feature branch - Created once the `develop` branch has enough features for a release or a release date is approaching. No new features can be added after this point—only bug fixes, documentation generation, and other release-oriented tasks should go in this branch.
+4. Release branch - Created once the `develop` branch has enough features for a release or a release date is approaching. No new features can be added after this point—only bug fixes, documentation generation, and other release-oriented tasks should go in this branch.
 
 Once it's ready to ship, the `release` branch gets merged into `main` and tagged with a version number. In addition, it should be merged back into `develop`, which may have progressed since the release was initiated.
 
