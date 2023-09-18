@@ -166,7 +166,7 @@ Your answer here
 
 ## Part 4 - Simulate a GitHub Flow
 
-In this section, we will simulate a simplified GitHub flow using [this](https://github.com/su-ntu-ctp/6m-software-4.1-lesson-exercise) sample repository.
+In this section, we will simulate a simplified GitHub flow using [this](https://github.com/su-ntu-ctp/6m-software-4.2-lesson-exercise) sample repository.
 
 Step 1: Fork the repository
 
@@ -192,6 +192,6 @@ git commit -m "type a meaningful message here"
 git push origin <branch name>
 ```
 
-Step 7: Go to `https://github.com/your_username/6m-software-4.1-lesson-exercise` to create a Pull Request from your branch to the `main` branch of `https://github.com/su-ntu-ctp/6m-software-4.1-lesson-exercise`.
+Step 7: Go to `https://github.com/your_username/6m-software-4.2-lesson-exercise` to create a Pull Request from your branch to the `main` branch of `https://github.com/su-ntu-ctp/6m-software-4.2-lesson-exercise`.
 
 Step 8: Instructor to demonstrate merging the pull request into the `main` branch.
