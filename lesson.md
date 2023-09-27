@@ -77,8 +77,7 @@ Once it's ready to ship, the `release` branch gets merged into `main` and tagged
 How to do GitFlow
 1. Start development by branching out a `feature` branch from the `develop` branch
 1. Complete and test new feature in the `feature` branch
-1. Merge `develop` branch into the `feature` branch to solve potential conflicts
-1. Create a pull request from the `feature` branch to the `main` branch
+1. Merge `feature` branch into the `develop` branch to solve potential conflicts
 1. Create a `release` branch from the `develop` branch
 1. Perform fixes on `release` branch
 1. Once stable, merge `release` branch into the `main` branch
