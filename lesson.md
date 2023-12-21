@@ -114,11 +114,11 @@ Developers can create short-lived branches with a few small commits compared to 
 
 Trunk Based:
 
-<img src="https://cloud.google.com/static/architecture/devops/images/devops-tech-trunk-based-development-typical-trunk-timeline.svg" width="50%" />
+<img src="https://dora.dev/devops-capabilities/technical/trunk-based-development/trunk-based-development-typical-trunk-timeline.svg" width="50%" />
 
 Non-trunk Based:
 
-<img src="https://cloud.google.com/static/architecture/devops/images/devops-tech-trunk-based-development-typical-non-trunk-timeline.svg" width="50%" />
+<img src="https://dora.dev/devops-capabilities/technical/trunk-based-development/trunk-based-development-typical-non-trunk-timeline.svg" width="50%" />
 
 ---
 
