@@ -171,7 +171,7 @@ In this section, we will simulate a simplified GitHub flow using [this](https://
 
 Step 1: Create a new branch `Feature-<your initial>-test` (the goal is ensuring all branches are unique).
 
-Step 2: Clone the forked repository to your local machine
+Step 2: Clone the sample repository to your local machine
 
 ```sh
 git clone <url>
@@ -184,7 +184,7 @@ git checkout <branch name>
 
 Step 4: Edit the `readme.md` file
 
-Step 5: Add, commit and push changes to the forked repository
+Step 5: Add, commit and push changes to the sample repository
 ```
 git add .
 git commit -m "type a meaningful message here"
