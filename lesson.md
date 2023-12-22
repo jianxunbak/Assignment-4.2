@@ -167,30 +167,30 @@ Your answer here
 
 In this section, we will simulate a simplified GitHub flow using [this](https://github.com/su-ntu-ctp/6m-software-4.2-lesson-exercise) sample repository.
 
-Step 1: Fork the repository
+*Note to the instructor: Recreate the repository in your own account and protect the main branch.*
 
-Step 2: Create a new branch `Feature-<your initial>-test` (the goal is ensuring all branches are unique).
+Step 1: Create a new branch `Feature-<your initial>-test` (the goal is ensuring all branches are unique).
 
-Step 3: Clone the forked repository to your local machine
+Step 2: Clone the forked repository to your local machine
 
 ```sh
 git clone <url>
 ```
 
-Step 4: Check out your branch locally
+Step 3: Check out your branch locally
 ```sh
 git checkout <branch name>
 ```
 
-Step 5: Edit the `readme.md` file
+Step 4: Edit the `readme.md` file
 
-Step 6: Add, commit and push changes to the forked repository
+Step 5: Add, commit and push changes to the forked repository
 ```
 git add .
 git commit -m "type a meaningful message here"
 git push origin <branch name>
 ```
 
-Step 7: Go to `https://github.com/your_username/6m-software-4.2-lesson-exercise` to create a Pull Request from your branch to the `main` branch of `https://github.com/su-ntu-ctp/6m-software-4.2-lesson-exercise`.
+Step 6: Go to `https://github.com/your_username/6m-software-4.2-lesson-exercise` to create a Pull Request from your branch to the `main` branch of `https://github.com/su-ntu-ctp/6m-software-4.2-lesson-exercise`.
 
-Step 8: Instructor to demonstrate merging the pull request into the `main` branch.
+Step 7: Instructor to demonstrate merging the pull request into the `main` branch.
