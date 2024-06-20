@@ -10,6 +10,9 @@ Technical knowledge is vast. Timebox yourself for 3 hours to work on the followi
 - [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow)
 - [Trunk based development](https://cloud.google.com/architecture/devops/devops-tech-trunk-based-development)
 - [GitFlow vs GitHubFlow](https://www.geeksforgeeks.org/git-flow-vs-github-flow/)(Optional Read)
+- [Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
+
+
 ### Helpful Links (References)
 
 - [GitHub Flow Cheatsheet](https://enterprise.github.com/downloads/en/github-flow-cheatsheet.pdf)

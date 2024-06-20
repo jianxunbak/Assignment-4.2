@@ -2,7 +2,10 @@
 
 ### Brief
 
-Succinctly explain your answer to the earlier question during lesson section 2 `how does branching strategies affect DevOps?` between 100 to 200 words.
+Succinctly explain your answer to the following questions:
+1. How does branching strategies affect DevOps?
+2. What is the difference between `git fetch` and `git pull`?
+3. What is a remote alias and what is the command to create a new remote alias?
 
 ```
 Your answer here

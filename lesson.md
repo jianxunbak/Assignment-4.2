@@ -1,12 +1,8 @@
 ## Brief
 
-### Preparation
-
-Familiarize with GitFlow, GitHub Flow and Trunk Base Development. Git CLI commands will be used in this lesson.
-
 ### Lesson Overview
 
-This lesson aims to help learners understand the concepts of the common branching strategies and tell the differences between them. The lesson will also simulate GitHub flow where learners will be making changes to a code base and create pull request to the remote branch.
+This lesson aims to help learners understand the concepts of the common branching strategies and tell the differences between them. The lesson will also simulate GitHub flow where learners will be making changes to a code base and create pull request to the remote branch. The lesson also would tackle some commonly used git commands and simulate merging local branches.
 
 ---
 
@@ -126,8 +122,6 @@ Non-trunk Based:
 
 Learners are given with a few scenarios. In a group of 3, the team is expected to suggest one branching strategy that is most applicable to the scenario and justify it by explaining the "why". Include any other assumptions that influence your team's decision.
 
-After discussing the scenario, end with the final question posted at the end of this section.
-
 ---
 ### Scenario One - A Utility Mobile App
 
@@ -156,11 +150,6 @@ At a system integrator company, the team received an A-Z requirements from a cus
 Your answer here
 ```
 
----
-Final Question: How these branching strategies affect DevOps?
-```
-Your answer here
-```
 ---
 
 ## Part 4 - Simulate a GitHub Flow
@@ -194,3 +183,42 @@ git push origin <branch name>
 Step 6: Go to `https://github.com/your_username/6m-software-4.2-lesson-exercise` to create a Pull Request from your branch to the `main` branch of `https://github.com/su-ntu-ctp/6m-software-4.2-lesson-exercise`.
 
 Step 7: Instructor to demonstrate merging the pull request into the `main` branch.
+
+
+## Part 5 - Advanced Git commands
+*Note to the instructor: Have the class try out some of the commands for the sake of time*
+
+There are more git commands that can be used for different needs:
+1. Inspecting and Comparing
+    - git log - Show the commit history for the currently active branch
+    - git diff - Show the difference of what is changed but not staged / commited
+2. Working with remote repositories
+    - git fetch - Download objects and refs from another repository
+    - git pull - Fetch from and integrate with another repository or a local branch
+    - git remote - Check and perform operations with a git URL
+    *Question: What's the difference between `git fetch` and `git pull`?*
+3. Working with branches and tags
+    - git branch - List and create branches
+    - git checkout - Move between branches
+    - git merge - Merge changes between branches
+    - git tag - Create, list, delete or verify a tag
+    - git stash - Remove changes
+
+## Part 6 - Merging branches
+
+Changes between branches can be merged to ensure that the current branch you are working on contains the up-to-date code.
+
+<img src="./assets/merging.PNG">
+
+The following steps can be done to achieve merging from main branch to a feature branch:
+
+```bash
+git pull origin main    #pulls changes from remote repo to the main branch
+git branch              #verify what branch you are currently on
+git checkout feature    #move to the feature branch
+git merge main          #merge the content of main branch to the feature branch
+```
+
+### Activity
+
+Using the flow above, what are the commands to merge changes from the local feature branch to the local main branch?
