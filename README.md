@@ -32,12 +32,11 @@ Learners will be able to:
 |30 mins|Part 2| Case Study|
 ||**1 HR MARK**|
 |5 mins|Break|Break|
-|40 mins|Part 3| GitHub Flow Exercise|
-|5 mins|Buffer|In case of overrun|
+|50 mins|Part 3| GitHub Flow Exercise|
 |5 mins|Break||
-|5 mins|Assignment Briefing|Help students to understand the expectation and direction of the assignment to prevent mis-interpretations.|
 ||**2 HR MARK**|
-|50 mins|Learners self attempt on assignments|
+|30 mins|Advanced Git Commands|
+|20 mins|Merging Branches|
 |10 mins|Instructors assist learners to push changes to remote repository.|
 ||**END CLASS 3 HR MARK**|
 
