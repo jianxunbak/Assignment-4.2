@@ -35,8 +35,8 @@ Learners will be able to:
 |50 mins|Part 3| GitHub Flow Exercise|
 |5 mins|Break||
 ||**2 HR MARK**|
-|30 mins|Advanced Git Commands|
-|20 mins|Merging Branches|
+|30 mins|Part 4| Advanced Git Commands|
+|20 mins|Part 5| Merging Branches|
 |10 mins|Instructors assist learners to push changes to remote repository.|
 ||**END CLASS 3 HR MARK**|
 
