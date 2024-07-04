@@ -110,7 +110,7 @@ Developers can create short-lived branches with a few small commits compared to 
 
 Trunk Based:
 
-<img src="./assets/trunk-based.png" />
+<img src="./assets/trunk-based.PNG" />
 
 ---
 
