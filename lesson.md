@@ -110,11 +110,7 @@ Developers can create short-lived branches with a few small commits compared to 
 
 Trunk Based:
 
-<img src="https://dora.dev/devops-capabilities/technical/trunk-based-development/trunk-based-development-typical-trunk-timeline.svg" width="50%" />
-
-Non-trunk Based:
-
-<img src="https://dora.dev/devops-capabilities/technical/trunk-based-development/trunk-based-development-typical-non-trunk-timeline.svg" width="50%" />
+<img src="./assets/trunk-based.png" />
 
 ---
 
@@ -196,7 +192,9 @@ There are more git commands that can be used for different needs:
     - git fetch - Download objects and refs from another repository
     - git pull - Fetch from and integrate with another repository or a local branch
     - git remote - Check and perform operations with a git URL
-    *Question: What's the difference between `git fetch` and `git pull`?*
+   
+*Question: What's the difference between `git fetch` and `git pull`?*
+
 3. Working with branches and tags
     - git branch - List and create branches
     - git checkout - Move between branches
