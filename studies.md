@@ -8,7 +8,7 @@ Technical knowledge is vast. Timebox yourself for 3 hours to work on the followi
 
 - [Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 - [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow)
-- [Trunk based development](https://cloud.google.com/architecture/devops/devops-tech-trunk-based-development)
+- [Trunk based development](https://dora.dev/capabilities/trunk-based-development/)
 - [GitFlow vs GitHubFlow](https://www.geeksforgeeks.org/git-flow-vs-github-flow/)(Optional Read)
 - [Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
